@@ -14,3 +14,5 @@
 * [Github Issue about Expo and multiple NICs](https://github.com/react-community/create-react-native-app/issues/81)
 * [Setting ENV variable for NIC to listen to](https://github.com/react-community/create-react-native-app/blob/d01ddabb634532200629c6d17f920eb856fa6416/react-native-scripts/template/README.md#configuring-packager-ip-address)
 * [Expo listens to the first NIC detected](https://github.com/react-community/create-react-native-app/issues/264#issuecomment-309525762)
+* Development server has returned error 500.
+    * Remove `yarn.lock` or `package-lock.json` and `node_modules/` then reinstall everything using `npm i` or `yarn`.
