@@ -16,3 +16,17 @@
 * [Expo listens to the first NIC detected](https://github.com/react-community/create-react-native-app/issues/264#issuecomment-309525762)
 * Development server has returned error 500.
     * Remove `yarn.lock` or `package-lock.json` and `node_modules/` then reinstall everything using `npm i` or `yarn`.
+* How to style react-navigation default header?
+```
+static navigationOptions() {
+  return {
+    headerStyle: {backgroundColor: 'red'}
+  }
+}
+```
+* How to detect platform: Android vs IOS?
+```
+import {Platform} from 'react-native'
+Platform.OS === 'android'
+Platform.OS === 'ios'
+```
