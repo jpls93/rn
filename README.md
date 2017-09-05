@@ -30,3 +30,17 @@ import {Platform} from 'react-native'
 Platform.OS === 'android'
 Platform.OS === 'ios'
 ```
+## Deployment
+### Android
+- [ ] `package` - package name for the Android app. Usually in Reverse DNS notation e.g. "com.mydom.mysubdom"
+- [ ] `versionCode` - integer from 1 to 2100000000. Prevents downgrade of users' apps.
+- [ ] `icon` - 512x512 `.png` file that will appear in a device's home screen
+- [ ] `permissions` - List of permissions.
+- [ ] `config`
+    - [ ] `branch` - branch.io configuration
+    - [ ] `fabric`
+    - [ ] `googleMaps`
+    - [ ] `googleSignIn`
+- [ ] `facebookScheme`
+- [ ] `hooks`
+### IOS
